@@ -4,9 +4,10 @@
   "scripts": {
     "start-server": "ts-node src/server.ts",
     "dev": "concurrently \"yarn start-server\" \"vite\"",
-    "build": "vite build",
+    "build": "tsc --project tsconfig.build.json",
     "preview": "vite preview",
-    "prod": "ts-node src/server.ts"
+    "start": "node dist/index.js",
+    "prod": "ts-node api/index.ts"
   },
   "keywords": [],
   "author": "",

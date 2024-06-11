@@ -7,8 +7,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "api"
   },
-  "include": ["src/**/*.ts", "src/*.ts"],
+  "include": ["api/**/*.ts", "api/*.ts"],
   "exclude": ["node_modules"]
 }
